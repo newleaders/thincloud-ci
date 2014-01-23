@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "thincloud/ci/generator"
+
+Thincloud::CI::Generator.new.ciify!
